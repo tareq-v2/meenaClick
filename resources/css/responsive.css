@@ -1,0 +1,46 @@
+
+
+
+@media (min-width: 576px) {
+    .branding {
+        margin-top: 10px;
+    }
+    .footer-top {
+        text-align: center;
+    }
+ }
+
+
+@media (min-width: 768px) { 
+    .branding {
+        margin-top: 10px;
+    }
+    .footer-top {
+        text-align: start;
+    }
+ }
+
+
+@media (min-width: 992px) { 
+    .branding {
+        margin-top: 10px;
+    }
+    .vertical-menu a {
+        pr-4
+    }
+ }
+
+
+@media (min-width: 1200px) { 
+    .branding {
+        margin-top: 0;
+    }
+ }
+
+
+ 
+@media (min-width: 1400px) { 
+    .branding {
+        margin-top: 0;
+    }
+ }

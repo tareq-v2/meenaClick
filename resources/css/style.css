@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #fff;
+}
+/* Home page Css Start here */
+.header .mybtn a {
+    background-color: #fff;
+    color: grey;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.fix-position {
+    position: fixed;
+    text-align: right; 
+    right: 10px;
+    right: 0;
+    z-index: 10000;
+}
+
+.header a:hover {
+    background-color: #ffffff;
+    color: #20aa6b;
+    font-weight: bolder;
+}
+
+.vertical-menu {
+    width: 220px;
+    overflow-y: auto;
+ }
+  
+  .vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 7px;
+    text-decoration: none;
+ }
+  
+  .vertical-menu a:hover {
+    background-color: #20aa6b;
+ }
+  
+  .vertical-menu a.active {
+    background-color: #20aa6b;
+    color: white;
+}
+
+  section.all-products .section-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0;
+    border-bottom: 2px solid #525050;
+}
+
+.section-heading h2 {
+    color: #20aa6b;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.section-heading a {
+    color: #8a8181;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+
+.section-heading a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.single-card h5 {
+    color: #525050;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.single-card a {
+    background-color: #20aa6b;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    transition: all 0.3s;
+    text-transform: uppercase;
+}
+
+.single-card a:hover {
+    background-color: transparent;
+    color: #28A745;
+    border: 1px solid #28A745;
+}
+
+.footer-top {
+    background-color: #445268;
+}
+
+.social-links a i {
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    font-size: 18px;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+.social-links a:hover i {
+    background-color: #000;
+    color: #fff;
+}
+
+.footer-bottom {
+    background-color: #313d51;
+}
+/* Home page Css Start here */
+#left-ul {
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+}
+#left-ul small {
+    color: grey;
+}
